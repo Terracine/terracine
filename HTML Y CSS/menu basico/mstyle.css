@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #042240;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    background-color: #0A192D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{color: #FEB43A;
+}
+.logo{
+    display: flex;
+   
+}
+.logo{
+    height: 50px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;   
+}
+nav a:hover{
+    color: rgb(91, 219, 219);
+}
+
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding:0px 0px 0px 15px ;
+    }
+}
